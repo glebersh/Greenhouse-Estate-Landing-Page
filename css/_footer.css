@@ -1,0 +1,112 @@
+/* footer */
+
+.footer-nav-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
+.footer-credits {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-starty;
+  align-items: flex-start;
+  width: 45%;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footer-logo-text {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--light-blue-color);
+}
+
+.footer-credit-description {
+  color: var(--dark-gray-color);
+  margin: 0;
+  padding: 0;
+  line-height: 2em;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.footer-socials-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.social-link-svg:not(.social-link-svg:first-of-type) {
+  margin-left: 30px;
+}
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 30px;
+
+  -moz-column-gap: 90px;
+  column-gap: 150px;
+}
+
+.column-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.footer-navigation-item {
+  font-size: 16px;
+  color: var(--dark-gray-color);
+  font-weight: 400;
+  transition: 0.22s;
+}
+
+.footer-navigation-item:not(.footer-navigation-item ~ .footer-location):hover {
+  color: var(--light-blue-color);
+  font-weight: 500;
+  transition: 0.22s;
+  cursor: pointer;
+}
+
+.footer-location-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 15%;
+  margin-left: auto;
+}
+
+.footer-location {
+  line-height: 2em;
+  margin-top: -10px;
+}
+
+.footer-copyright {
+  width: 100%;
+  border-top: 1px solid var(--light-gray-color);
+  text-align: center;
+  padding: 30px 0;
+  color: var(--dark-gray-color);
+  font-size: 16px;
+  margin-top: 80px;
+}

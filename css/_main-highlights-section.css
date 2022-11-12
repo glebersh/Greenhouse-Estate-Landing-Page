@@ -1,0 +1,136 @@
+/* fourth section */
+
+.highlights-section {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.category:not(.category:first-of-type) {
+  margin-left: 60px;
+}
+
+.category {
+  font-size: 18px;
+  color: var(--dark-gray-color);
+  cursor: pointer;
+  transition: 0.22s ease-in-out;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.category:hover {
+  font-size: 18px;
+  color: var(--light-blue-color);
+  transition: 0.22s ease-in-out;
+  border-bottom: 2px solid var(--light-blue-color);
+}
+
+.items-cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 50px;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 70px;
+
+  height: 380px;
+  width: 260px;
+  padding: 20px 28px;
+  border-radius: 15px;
+  border: 1px solid var(--light-gray-color);
+
+  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(/img/sm-house-img-1.jpg);
+}
+
+.item-card:first-of-type {
+  margin-left: 0;
+}
+
+.item-card:nth-of-type(2) {
+  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(/img/sm-house-img-2.jpg);
+}
+
+.item-card:nth-of-type(3) {
+  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(/img/sm-house-img-3.jpg);
+}
+
+.item-card:nth-of-type(4) {
+  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(/img/sm-house-img-4.jpg);
+}
+
+.location-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--white);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.location-icon {
+  margin-right: 10px;
+}
+
+.location-link:hover {
+  color: var(--light-blue-color);
+}
+
+.estate-info,
+.bed-info,
+.bath-info,
+.meter-info {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.estate-name {
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: -40px;
+}
+
+.estate-info {
+  margin-top: 10px;
+}
+
+.estate-info-icon {
+  margin-right: 5px;
+}
+
+.estate-info-value {
+  margin-right: 15px;
+}
+
+.price {
+  color: #709E12;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: left;
+  margin-left: -40px;
+  margin-top: 10px;
+}

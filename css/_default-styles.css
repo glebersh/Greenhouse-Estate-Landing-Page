@@ -1,0 +1,33 @@
+/* default styles */
+
+.offset-clearify {
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.default-link {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  --dark-blue-color: #282B71;
+  --light-blue-color: #0165C3;
+  --light-blue-color-opacity: #0165c323;
+  --dark-gray-color: #656361;
+  --white: #FFFFFF;
+  --light-gray-color: #DEE1E7;
+  --light-gray-color-opacity: #e9ecf12c;
+  --beige-color: #FBF6F2;
+  --black-color: #010101;
+  --dark-cooper-color: #8B7563;
+  --dark-cooper-color-opacity: #8b756398;
+
+  font-family: 'Ubuntu', sans-serif;
+}

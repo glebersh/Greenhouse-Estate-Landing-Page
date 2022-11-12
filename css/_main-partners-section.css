@@ -1,0 +1,35 @@
+/* partners section */
+
+.partners-section {
+  text-align: center;
+}
+
+.section-intro {
+  text-transform: uppercase;
+  color: var(--light-blue-color);
+  padding-top: 150px;
+  font-size: 18px;
+}
+
+.section-title {
+  font-size: 52px;
+  font-weight: 400;
+}
+
+.section-description {
+  color: var(--dark-gray-color);
+  margin-top: 30px;
+}
+
+.logos-container {
+  margin: 50px 0 70px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.trusted-img:not(.trusted-img:first-of-type) {
+  margin-left: 76px;
+}
