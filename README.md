@@ -6,7 +6,7 @@ Figma template for creating this landing page is taken from [here](https://figma
 
 ## About
 
-Simple landing page with responsive design.
+Simple landing page with responsive design and a bit of animation.
 
 ## Tech stack
 
