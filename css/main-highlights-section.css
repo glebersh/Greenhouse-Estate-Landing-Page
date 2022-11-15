@@ -70,7 +70,7 @@
 }
 
 .item-card:nth-of-type(3) {
-  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(/img/sm-house-img-3.jpg);
+  background: linear-gradient(180deg, transparent 70%, var(--white) 30%), url(img/sm-house-img-3.jpg);
 }
 
 .item-card:nth-of-type(4) {
