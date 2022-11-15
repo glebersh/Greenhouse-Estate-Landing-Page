@@ -1,5 +1,7 @@
 # Greenhouse-Estate-Landing-Page
 
+[Link to the site on GitHub Pages](https://glebersh.github.io/Greenhouse-Estate-Landing-Page/)
+
 ## Credits
 
 Figma template for creating this landing page is taken from [here](https://figma.community/topic/1335-shablon-green-house-dlya-figma/)
